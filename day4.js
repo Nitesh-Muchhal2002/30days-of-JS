@@ -60,3 +60,16 @@
 //     console.log(`name is ${name} and age is ${age}`);
 // }
 // message("nitesh");
+ 
+//for each
+let name=["pune","banglore","mumbai"]
+name.forEach((val) => {
+    console.log(val.toUpperCase());
+});
+
+//squre
+let squar=[8,33,67]
+squar.forEach((val)=>
+{
+    console.log(val*val);
+})
